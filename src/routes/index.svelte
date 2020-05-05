@@ -33,14 +33,12 @@
 </style>
 
 <svelte:head>
-	<title>Sapper project template</title>
+	<title>Rgaete's Home</title>
 </svelte:head>
 
-<h1>Great success!</h1>
+<h1>Esta es la version del dia 1 :D</h1>
 
 <figure>
-	<img alt='Success Kid' src='successkid.jpg'>
-	<figcaption>Have fun with Sapper!</figcaption>
+	<img alt='First Version' src='first_version.png'>
+	<figcaption>I'n having fun with Sapper!</figcaption>
 </figure>
-
-<p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
