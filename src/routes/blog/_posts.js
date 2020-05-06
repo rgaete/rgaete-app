@@ -12,18 +12,120 @@ const posts = [
 		title: 'What is Sapper?',
 		slug: 'what-is-sapper',
 		html: `
-			<p>First, you have to know what <a href='https://svelte.dev'>Svelte</a> is. Svelte is a UI framework with a bold new idea: rather than providing a library that you write code with (like React or Vue, for example), it's a compiler that turns your components into highly optimized vanilla JavaScript. If you haven't already read the <a href='https://svelte.dev/blog/frameworks-without-the-framework'>introductory blog post</a>, you should!</p>
+		<div class="col-sm-9">
+        <h4>
+          <small>RECENT POSTS</small>
+        </h4>
+        <hr />
+        <h2>I Love Food</h2>
+        <h5>
+          <span class="glyphicon glyphicon-time" />
+          Post by Jane Dane, Sep 27, 2015.
+        </h5>
+        <h5>
+          <span class="label label-danger">Food</span>
+          <span class="label label-primary">Ipsum</span>
+        </h5>
+        <br />
+        <p>
+          Food is my passion. Lorem ipsum dolor sit amet, consectetur adipiscing
+          elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+          laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+          occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+          mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+          ea commodo consequat.
+        </p>
+        <br />
+        <br />
 
-			<p>Sapper is a Next.js-style framework (<a href='blog/how-is-sapper-different-from-next'>more on that here</a>) built around Svelte. It makes it embarrassingly easy to create extremely high performance web apps. Out of the box, you get:</p>
+        <h4>Leave a Comment:</h4>
+        <form role="form">
+          <div class="form-group">
+            <textarea class="form-control" rows="3" required />
+          </div>
+          <button type="submit" class="btn btn-success">Submit</button>
+        </form>
+        <br />
+        <br />
 
-			<ul>
-				<li>Code-splitting, dynamic imports and hot module replacement, powered by webpack</li>
-				<li>Server-side rendering (SSR) with client-side hydration</li>
-				<li>Service worker for offline support, and all the PWA bells and whistles</li>
-				<li>The nicest development experience you've ever had, or your money back</li>
-			</ul>
+        <p>
+          <span class="badge">2</span>
+          Comments:
+        </p>
+        <br />
 
-			<p>It's implemented as Express middleware. Everything is set up and waiting for you to get started, but you keep complete control over the server, service worker, webpack config and everything else, so it's as flexible as you need it to be.</p>
+        <div class="row">
+          <div class="col-sm-2 text-center">
+            <img
+              src="bandmember.jpg"
+              class="img-circle"
+              height="65"
+              width="65"
+              alt="Avatar" />
+          </div>
+          <div class="col-sm-10">
+            <h4>
+              Anja
+              <small>Sep 29, 2015, 9:12 PM</small>
+            </h4>
+            <p>
+              Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor
+              sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua.
+            </p>
+            <br />
+          </div>
+          <div class="col-sm-2 text-center">
+            <img
+              src="bird.jpg"
+              class="img-circle"
+              height="65"
+              width="65"
+              alt="Avatar" />
+          </div>
+          <div class="col-sm-10">
+            <h4>
+              John Row
+              <small>Sep 25, 2015, 8:25 PM</small>
+            </h4>
+            <p>
+              I am so happy for you man! Finally. I am looking forward to read
+              about your trendy life. Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua.
+            </p>
+            <br />
+            <p>
+              <span class="badge">1</span>
+              Comment:
+            </p>
+            <br />
+            <div class="row">
+              <div class="col-sm-2 text-center">
+                <img
+                  src="bird.jpg"
+                  class="img-circle"
+                  height="65"
+                  width="65"
+                  alt="Avatar" />
+              </div>
+              <div class="col-xs-10">
+                <h4>
+                  Nested Bro
+                  <small>Sep 25, 2015, 8:28 PM</small>
+                </h4>
+                <p>Me too! WOW!</p>
+                <br />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 		`
 	},
 

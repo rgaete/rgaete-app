@@ -36,9 +36,9 @@
 	<title>Rgaete's Home</title>
 </svelte:head>
 
-<h1>Esta es la version del dia 1 :D</h1>
+<h1>Rgaete's Home</h1>
 
 <figure>
-	<img alt='First Version' src='first_version.png'>
+	<img alt='Success Kid' src='successkid.jpg'>
 	<figcaption>I'n having fun with Sapper!</figcaption>
 </figure>

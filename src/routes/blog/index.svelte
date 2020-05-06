@@ -23,6 +23,8 @@
   <title>Blog</title>
 </svelte:head>
 
+
+
 <h1>Recent posts</h1>
 
 <ul>
@@ -36,3 +38,4 @@
     </li>
   {/each}
 </ul>
+
