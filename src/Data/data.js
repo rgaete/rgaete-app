@@ -10,7 +10,7 @@ const BANNER_DATA = {
     HEADING: "Rgaete's Home"
 };
 const BLOG_DATA = {
-    HEADING: "Acá irá mi blog, en algún momento",
+    HEADING: "Acá irá mi blog",
     BLOG_LIST: [
         {
             LABEL: "Desarrollador Backend",
